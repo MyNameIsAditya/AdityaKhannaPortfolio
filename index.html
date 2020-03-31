@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "utf-8">
+        <title>Aditya Khanna Portfolio</title>
+        
+        <!-- Font Awesome-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- CSS -->
+        <link rel = "stylesheet" href = "css/styles.css">
+    </head>
+    
+    <body>
+        
+        <!-- Navigation Bar -->
+        <nav class = "navBar">
+            <div class = "personalBrand">
+                Code<span class = "blueBrand">Adi</span>
+            </div>
+            <ul class = "topNav" id = "navBarToggle">
+                <li><a class = "navLink" href = "#">Home</a></li>
+                <li><a class = "navLink" href = "#">About Me</a></li>
+                <li><a class = "navLink" href = "#">Products</a></li>
+                <li><a class = "navLink" href = "#">Contact Me</a></li>
+                <li class = "dropdownLink"><a onclick = "toggleDropdown()" href = "javascript:void(0)">&#9776;</a></li>
+            </ul>
+        </nav>
+        
+        <!-- Header - Aditya Khanna -->
+        <header>
+            <div class = "headshotWrapper">
+            <img class = "headshotImage" src = "resources/headshotResized.png" alt = "Profile Image">
+                <h1>Aditya Khanna</h1>
+            </div>
+        </header>
+        
+        <!--  Services -->
+        <section class = "servicesSection">
+            <div class = "container">
+                <div class = "mediaObject">
+                    <div class = "iconWrapperLeft">
+                        <img class = "iconObject" src = "resources/GraphsImage.svg" alt = "Graphs">
+                    </div>
+                    <div class = "descriptionWrapperRight">
+                        <h3 class = "descriptionHeader">Scalable Code</h3>
+                        <div class = "descriptionInfo">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                        </div>
+                    </div>
+                </div>
+                <div class = "mediaObject">
+                    <div class = "iconWrapperRight">
+                        <img class = "iconObject" src = "resources/PieChart.svg" alt = "Pie Chart">
+                    </div>
+                    <div class = "descriptionWrapperLeft">
+                        <h3 class = "descriptionHeader">Agile Development</h3>
+                        <div class = "descriptionInfo">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                        </div>
+                    </div>
+                </div>
+                <div class = "mediaObject">
+                    <div class = "iconWrapperLeft">
+                        <img class = "iconObject" src = "resources/AssistantIcon.svg" alt = "Assistant">
+                    </div>
+                    <div class = "descriptionWrapperRight">
+                        <h3 class = "descriptionHeader">Maintenance and Support</h3>
+                        <div class = "descriptionInfo">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                        </div>
+                    </div>
+                </div>
+                <div class = "buttonWrapper">
+                    <button class = "learnMoreButton">Learn More</button>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Portfolio Section -->
+        <section class = "portfolioSection">
+            <div class = "container">
+                <div class = "portfolioSectionHeader">
+                    <h1>Professional Experience</h1>
+                </div>
+                <div class = "portfolioObjectWrapper">
+                    <div class = "portfolioObject">
+                        <div class = "portfolioBox">
+                            <img class = "portfolioImage" src = "resources/HEB.jpg" alt = "H-E-B">
+                        </div>
+                        <h4 class = "portfolioObjectTitle">H-E-B</h4>
+                        <div class = "portfolioDescription">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </div>
+                    </div>
+                    <div class = "portfolioObject">
+                        <div class = "portfolioBox">
+                            <img class = "portfolioImage" src = "resources/PwC.png" alt = "PwC">
+                        </div>
+                        <h4 class = "portfolioObjectTitle">PwC</h4>
+                        <div class = "portfolioDescription">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </div>
+                    </div>
+                    <div class = "portfolioObject">
+                        <div class = "portfolioBox">
+                            <img class = "portfolioImage" src = "resources/Visa.png" alt = "Visa">
+                        </div>
+                        <h4 class = "portfolioObjectTitle">Visa</h4>
+                        <div class = "portfolioDescription">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </div>
+                    </div>
+                    <div class = "portfolioObject">
+                        <div class = "portfolioBox">
+                            <img class = "portfolioImage" src = "resources/McKinsey.jpg" alt = "McKinsey">
+                        </div>
+                        <h4 class = "portfolioObjectTitle">McKinsey & Company</h4>
+                        <div class = "portfolioDescription">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Contact Section -->
+        <section class = "contactSection">
+            <div class = "container">
+                <div class = "contactSectionHeader">
+                    <h1>Contact Me</h1>
+                </div>
+                <form action = "">
+                    <label for = "email">Email</label>
+                    <div class = "formGroup">
+                        <input class = "formControl" type = "email" id = "email">
+                    </div>
+                    <label for = "name">Name</label>
+                    <div class = "formGroup">
+                        <input class = "formControl" type = "text" id = "name">
+                    </div>
+                    <label for = "message">Message</label>
+                    <div class = "formGroup">
+                        <textarea class = "formControl" id = "message" rows = "5"></textarea>
+                    </div>
+                    <div class = "submitButtonWrapper">
+                        <button class = "submitButton">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+        
+        <!-- Footer -->
+            <footer class = "footer">
+                <div class = "container">
+                    <div class = "iconWrapper">
+                        <a href = "https://facebook.com" target = "_blank">
+                            <i class = "fa fa-facebook-square fa-3x" aria-hidden = "true"></i>
+                        </a>
+                        <a href = "https://google.com" target = "_blank">
+                            <i class = "fa fa-google-plus-square fa-3x" aria-hidden = "true"></i>
+                        </a>
+                        <a href = "https://instagram.com" target = "_blank">
+                            <i class = "fa fa-instagram fa-3x" aria-hidden = "true"></i>
+                        </a>
+                        <a href = "https://twitter.com" target = "_blank">
+                            <i class = "fa fa-twitter-square fa-3x" aria-hidden = "true"></i>
+                        </a>
+                    </div>
+                </div>
+            </footer>
+        
+        <!-- Javascript -->
+        <script src = "https://code.jquery.com/jquery-3.4.1.min.js" integrity = "sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin = "anonymous"></script>
+        <script type = "text/javascript" src = "main.js"></script>
+        
+    </body>
+</html>

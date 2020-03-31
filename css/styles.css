@@ -1,0 +1,367 @@
+html, body
+{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 20px;
+    font-size: 1rem;
+    color: #303137;
+    margin: 0;
+}
+
+.navBar, .container
+{
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.navBar
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    width: auto;
+}
+
+.personalBrand, .navLink, a
+{
+    text-transform: uppercase;
+    color: #303137;
+}
+
+.personalBrand
+{
+    font-size: 25px;
+}
+
+.blueBrand
+{
+    color: #66B6D3;
+}
+
+.topNav 
+{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.topNav .navLink, a
+{
+    text-decoration: none;
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+.dropdownLink
+{
+    display: none;
+}
+
+header
+{
+    display: flex;
+    justify-content: center;
+}
+
+.headshotWrapper
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 6rem 0;
+}
+
+img.headshotImage
+{
+    border-radius: 50%;
+    max-width: 200px;
+    width: 100%;
+}
+
+.servicesSection
+{
+    background-color: #F1F3FA;
+    padding: 4rem 1rem;
+}
+
+.portfolioSection
+{
+    margin-bottom: 4rem;
+}
+
+.contactSection
+{
+    background-color: #F1F3FA;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 4rem;
+}
+
+.mediaObject
+{
+    display: flex;
+    align-items: center;
+    padding: 4rem 1rem;
+}
+
+.iconWrapperLeft, .iconWrapperRight
+{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.descriptionWrapperLeft, .descriptionWrapperRight
+{
+    flex: 1;
+}
+
+.iconWrapperLeft, .descriptionWrapperLeft
+{
+    order: 1;
+}
+
+.iconWrapperRight, .descriptionWrapperRight
+{
+    order: 2;
+}
+
+.iconObject
+{
+    width: 180px;
+}
+
+.descriptionWrapper
+{
+    flex: 1;
+}
+
+.descriptionHeader
+{
+    font-size: 25px;
+    margin-top: 0;
+}
+
+.descriptionInfo
+{
+    color: #646B90;
+    font-size: 18px;
+}
+
+.buttonWrapper
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.learnMoreButton, .submitButton
+{
+    color: white;
+    background-color: #66B6D3; 
+    font-size: 18px;
+    border: none;
+    padding: 0.8rem 4rem;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+}
+
+.portfolioSectionHeader, .contactSectionHeader
+{
+    text-align: center;
+    padding: 6rem 0 4rem;
+}
+
+.portfolioObjectWrapper
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.portfolioObject
+{
+    max-width: 250px;
+    margin 1rem 0;
+}
+
+.portfolioBox
+{
+    width: 250px;
+    height: 250px;
+    background-color: #F1F3FA;
+    transition: 0.2s ease-in-out;
+}
+
+.portfolioBox:hover
+{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+img.portfolioImage
+{
+    width: 100%;
+}
+
+h4.portfolioObjectTitle
+{
+    text-align: center;
+}
+
+form label
+{
+    font-size: 14px;
+}
+
+.formGroup
+{
+    margin-bottom: 0.75rem;
+}
+
+.formControl
+{
+    max-width: 800px;
+    width: 100%;
+    background-color: white;
+    color: #292B2C;
+    border-radius: 2px;
+    border: 1px solid #CED4DA;
+    padding 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    background-clip: padding-box;
+    display: block;
+}
+
+.submitButtonWrapper
+{
+    margin-top: 4rem;
+}
+
+footer
+{
+    background-color: #white;
+}
+
+.iconWrapper
+{
+    display: flex;
+    justify-content: center;
+}
+
+.fa 
+{
+    margin: 10px;
+}
+
+.fa-facebook-square
+{
+    color: #3B5998;
+}
+
+.fa-google-plus-square
+{
+    color: #C32F10;
+}
+
+.fa-instagram
+{
+    color: #292B2C;
+}
+
+.fa-twitter-square
+{
+    color: cornflowerblue;
+}
+
+.socialWrapper
+{
+    margin: auto;
+}
+
+@media (max-width: 768px)
+{
+    ul.topNav li a.navLink
+    {
+        display: none;
+    }
+    
+    ul.topNav li.dropdownLink
+    {
+        display: block;
+        position: absolute;
+        top: 15px;
+        right: 20px;
+    }
+    
+    ul.topNav.responsive li.dropdownLink
+    {
+        position: absolute;
+        top: 15px;
+        right: 20px;
+    }
+    
+    ul.topNav.responsive
+    {
+        flex-direction: column;
+        text-align: right;
+    }
+    
+    ul.topNav.responsive li
+    {
+        position: relative;
+        top: 30px;
+        right: 10px;
+    }
+    
+    ul.topNav.responsive li a.navLink
+    {
+        display: block;
+        line-height: 2;
+    } 
+    
+    .mediaObject
+    {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .iconWrapperLeft, .iconWrapperRight
+    {
+        order: 1;
+    }
+    
+    .descriptionWrapperLeft, .descriptionWrapperRight
+    {
+        order: 2;
+        padding-top: 2rem;
+    }
+    
+    .portfolioObject
+    {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    
+    .formGroup
+    {
+        display: flex;
+    }
+    
+    .submitButtonWrapper
+    {
+        text-align: center;
+    }
+}
+
+@media (max-width: 599px)
+{
+    .portfolioObjectWrapper
+    {
+        justify-content: center;
+    }
+}
